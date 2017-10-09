@@ -1,0 +1,26 @@
+{
+  "name": "partner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/createExe.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "electron build/createExe.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supersoup/partner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supersoup/partner/issues"
+  },
+  "homepage": "https://github.com/supersoup/partner#readme",
+  "devDependencies": {
+    "electron": "^1.7.8"
+  }
+}
